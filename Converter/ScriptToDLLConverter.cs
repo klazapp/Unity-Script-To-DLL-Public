@@ -7,6 +7,7 @@ using System.Linq;
 using System.IO;
 using System.Text.RegularExpressions;
 
+//TODO: When package is imported, automatically adjust api compatibility level from .netstandard to .netframework for all build platforms (android, ios, standalone)
 public class ScriptToDLLConverterWindow : EditorWindow
 {
     private List<string> _referenceDlls = new List<string>();
